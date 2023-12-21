@@ -1,2 +1,2 @@
 # Crypto-Trend-Classification
-Repository for ongoing work on crypto (Bitcoin) trend classification.
+Repository for ongoing work on crypto (Bitcoin) trend classification. Looking to investigate if user sentiment affects the price trends of crypto currencies.
