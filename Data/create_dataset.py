@@ -1,4 +1,3 @@
-import pandas as pd
 import os
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import TimeSeriesSplit
@@ -75,6 +74,7 @@ def split_dataset(data, target_col="Target", test_size=0.2, exclude_columns=None
     y_train (pd.Series): A Series containing the labels for the training data split.
     y_test (pd.Series): A Series containing the labels for the testing data split.
     """
+
     # Exclude the specified columns from the features, if provided
     if exclude_columns:
         feature_columns = [col for col in data.columns if col not in exclude_columns + [target_col]]

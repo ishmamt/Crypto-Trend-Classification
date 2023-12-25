@@ -1,6 +1,4 @@
-import stat
 import yfinance as yf
-import pandas as pd
 
 
 def fetch_crypto_data(ticker="BTC-USD", start="2010-01-01", end="2022-12-31"):
